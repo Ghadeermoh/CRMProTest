@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22976" started-at="2019-03-09T13:22:00Z" finished-at="2019-03-09T13:22:23Z">
+  <suite name="Default suite" duration-ms="31190" started-at="2019-03-09T19:31:42Z" finished-at="2019-03-09T19:32:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22976" started-at="2019-03-09T13:22:00Z" finished-at="2019-03-09T13:22:23Z">
+    <test name="Default test" duration-ms="31190" started-at="2019-03-09T19:31:42Z" finished-at="2019-03-09T19:32:13Z">
       <class name="com.qa.CRMPageTest.HomePageTest">
-        <test-method status="PASS" signature="setup()" name="setup" is-config="true" duration-ms="20543" started-at="2019-03-09T13:22:00Z" finished-at="2019-03-09T13:22:21Z">
+        <test-method status="PASS" signature="setup()" name="setup" is-config="true" duration-ms="27759" started-at="2019-03-09T19:31:42Z" finished-at="2019-03-09T19:32:10Z">
         </test-method>
-        <test-method status="PASS" signature="CalendarlinkTest()" name="CalendarlinkTest" duration-ms="1644" started-at="2019-03-09T13:22:21Z" finished-at="2019-03-09T13:22:23Z">
+        <test-method status="PASS" signature="ContactsLinkTest()" name="ContactsLinkTest" duration-ms="2576" started-at="2019-03-09T19:32:10Z" finished-at="2019-03-09T19:32:12Z">
         </test-method>
-        <test-method status="PASS" signature="teardown()" name="teardown" is-config="true" duration-ms="757" started-at="2019-03-09T13:22:23Z" finished-at="2019-03-09T13:22:23Z">
+        <test-method status="PASS" signature="teardown()" name="teardown" is-config="true" duration-ms="786" started-at="2019-03-09T19:32:12Z" finished-at="2019-03-09T19:32:13Z">
         </test-method>
       </class>
     </test>

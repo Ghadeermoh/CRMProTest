@@ -31,6 +31,18 @@ public class HomePage  extends CRMTestBase {
 		Calendarlink.click();
 		return new CalendarPage();
 	}
+	public String VerifyHomePageTitle() {
+		return driver.getTitle();
+	}
+	public boolean VerifyUserNameDisplayed() {
+		return UserLogo.isDisplayed();
+		
+	}
+	public ContactPage  VerifyContactsLink() {
+		Util.switchframe();
+		Contactslink.click();
+		return new ContactPage();
+	}
 	  
 
 }

@@ -5,8 +5,11 @@
     <classes>
       <class name="com.qa.CRMPageTest.HomePageTest">
         <methods>
-          <include name="CalendarlinkTest"/>
+          <include name="UserNameDisplayedTest"/>
+          <include name="HomePageTitleTest"/>
           <include name="setup"/>
+          <include name="ContactsLinkTest"/>
+          <include name="teardown"/>
         </methods>
       </class>
     </classes>
