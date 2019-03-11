@@ -29,26 +29,33 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing=0 cellpadding=0 class="param">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Command line test</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">66.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Command line test</td><td class="numi">5</td><td class="numi">5</td><td class="numi_attn">2</td><td class="numi">0</td><td class="numi">154.7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <a id="summary"></a>
 <table cellspacing=0 cellpadding=0 class="passed">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Time<br/>(Msecs)</th></tr>
-<tr><th colspan="4">Command line test &#8212; failed</th></tr>
-<tr class="failedodd"><td rowspan="1">com.qa.CRMPageTest.MainPageTest<td><a href="#m1"><b>SignupBtnTest</b>  </a></td><td class="numi">1</td><td class="numi">41710</td></tr>
+<tr><th colspan="4">Command line test &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="1">com.qa.CRMPageTest.HomePageTest<td><a href="#m1"><b>setup</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Command line test &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="3">com.qa.CRMPageTest.HomePageTest<td><a href="#m2"><b>teardown</b>  </a></td><td class="numi">2</td><td class="numi">41039</td></tr><tr class="skippedodd"><td><a href="#m3"><b>teardown</b>  </a></td><td class="numi">2</td><td class="numi">41039</td></tr><tr class="skippedodd"><td><a href="#m4"><b>setup</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Command line test &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="2">com.qa.CRMPageTest.HomePageTest<td><a href="#m5"><b>ContactsLinkTest</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m6"><b>UserNameDisplayedTest</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Command line test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="3">com.qa.CRMPageTest.LoginPageTest<td><a href="#m7"><b>LoginTest</b>  </a></td><td class="numi">1</td><td class="numi">15942</td></tr><tr class="passedodd"><td><a href="#m8"><b>LoginPageTitleTest</b>  </a></td><td class="numi">1</td><td class="numi">41</td></tr><tr class="passedodd"><td><a href="#m9"><b>LoginPageLogoTest</b>  </a></td><td class="numi">1</td><td class="numi">368</td></tr>
+<tr class="passedeven"><td rowspan="2">com.qa.CRMPageTest.HomePageTest<td><a href="#m10"><b>CalendarlinkTest</b>  </a></td><td class="numi">1</td><td class="numi">2237</td></tr><tr class="passedeven"><td><a href="#m11"><b>HomePageTitleTest</b>  </a></td><td class="numi">1</td><td class="numi">24</td></tr>
 </table>
 <h1>Command line test</h1>
-<a id="m1"></a><h2>com.qa.CRMPageTest.MainPageTest:SignupBtnTest</h2>
+<a id="m1"></a><h2>com.qa.CRMPageTest.HomePageTest:setup</h2>
 <div style="padding-left:3em">
-<p>timeout
-  (Session info: chrome=72.0.3626.119)
+<p>unknown error: Element &lt;input type=&quot;submit&quot; value=&quot;Login&quot; class=&quot;btn btn-small&quot;&gt; is not clickable at point (1182, 117). Other element would receive the click: &lt;div id=&quot;preloader&quot; style=&quot;opacity: 1;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=72.0.3626.121)
   (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;GHADEER&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_191&apos;
+System info: host: &apos;GHADEER&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_191&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\GHADEE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:56645}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.119, webStorageEnabled: true}
-Session ID: e1fd958230c1f75ba857ad4ffc96386b</p>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\GHADEE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60391}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: b14914851f27f875ece59b6ac0e5fedc</p>
 sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 <br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 <br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -69,9 +76,29 @@ sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 <br/>at java.lang.reflect.Method.invoke(Unknown Source)
 <br/>at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 <br/>at com.sun.proxy.$Proxy7.click(Unknown Source)
-<br/>at com.qa.CRM.Pages.CRMMainPage.VerifyCRMSignupBtn(CRMMainPage.java:21)
-<br/>at com.qa.CRMPageTest.MainPageTest.SignupBtnTest(MainPageTest.java:31)
-<br/>35 lines not shown
+<br/>at com.qa.CRM.Pages.LoginPage.VerifyLogin(LoginPage.java:35)
+<br/>at com.qa.CRMPageTest.HomePageTest.setup(HomePageTest.java:29)
+<br/>38 lines not shown
 </div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m2"></a><h2>com.qa.CRMPageTest.HomePageTest:teardown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m3"></a><h2>com.qa.CRMPageTest.HomePageTest:teardown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m4"></a><h2>com.qa.CRMPageTest.HomePageTest:setup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m5"></a><h2>com.qa.CRMPageTest.HomePageTest:ContactsLinkTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m6"></a><h2>com.qa.CRMPageTest.HomePageTest:UserNameDisplayedTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m7"></a><h2>com.qa.CRMPageTest.LoginPageTest:LoginTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m8"></a><h2>com.qa.CRMPageTest.LoginPageTest:LoginPageTitleTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m9"></a><h2>com.qa.CRMPageTest.LoginPageTest:LoginPageLogoTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m10"></a><h2>com.qa.CRMPageTest.HomePageTest:CalendarlinkTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m11"></a><h2>com.qa.CRMPageTest.HomePageTest:HomePageTitleTest</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>
