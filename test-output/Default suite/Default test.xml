@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite hostname="ghadeer" name="com.qa.CRMPageTest.HomePageTest" tests="1" failures="0" timestamp="11 Mar 2019 11:19:27 GMT" time="45.196" errors="0">
-  <testcase name="ContactsLinkTest" time="2.385" classname="com.qa.CRMPageTest.HomePageTest"/>
+<testsuite hostname="ghadeer" name="com.qa.CRMPageTest.ContactPageTest" tests="1" failures="0" timestamp="13 Mar 2019 11:59:21 GMT" time="49.76" errors="0">
+  <testcase name="CreateNewContatTest" time="20.307" classname="com.qa.CRMPageTest.ContactPageTest"/>
 </testsuite>
