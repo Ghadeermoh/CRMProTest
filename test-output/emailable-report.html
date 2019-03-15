@@ -29,15 +29,75 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing=0 cellpadding=0 class="param">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">49.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">1</td><td class="numi">1</td><td class="numi_attn">1</td><td class="numi">0</td><td class="numi">80.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <a id="summary"></a>
 <table cellspacing=0 cellpadding=0 class="passed">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Time<br/>(Msecs)</th></tr>
+<tr><th colspan="4">Default test &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="1">com.qa.CRMPageTest.ContactPageTest<td><a href="#m1"><b>setup</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Default test &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="1">com.qa.CRMPageTest.ContactPageTest<td><a href="#m2"><b>teardown</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Default test &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="1">com.qa.CRMPageTest.ContactPageTest<td><a href="#m3"><b>CreateNewContactDataProvider</b>  </a></td><td class="numi">1</td><td class="numi">12</td></tr>
 <tr><th colspan="4">Default test &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="1">com.qa.CRMPageTest.ContactPageTest<td><a href="#m1"><b>CreateNewContatTest</b>  </a></td><td class="numi">1</td><td class="numi">20307</td></tr>
+<tr class="passedodd"><td rowspan="1">com.qa.CRMPageTest.ContactPageTest<td><a href="#m4"><b>CreateNewContactDataProvider</b>  </a></td><td class="numi">1</td><td class="numi">20427</td></tr>
 </table>
 <h1>Default test</h1>
-<a id="m1"></a><h2>com.qa.CRMPageTest.ContactPageTest:CreateNewContatTest</h2>
+<a id="m1"></a><h2>com.qa.CRMPageTest.ContactPageTest:setup</h2>
+<div style="padding-left:3em">
+<p>unknown error: Element &lt;input type=&quot;submit&quot; value=&quot;Login&quot; class=&quot;btn btn-small&quot;&gt; is not clickable at point (1182, 117). Other element would receive the click: &lt;div id=&quot;preloader&quot; style=&quot;opacity: 0.046225;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;GHADEER&apos;, ip: &apos;192.168.1.3&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\GHADEE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61916}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: de23241eec5badd2166b73abb130f56b</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.lang.reflect.Method.invoke(Method.java:498)
+<br/>at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+<br/>at com.sun.proxy.$Proxy10.click(Unknown Source)
+<br/>at com.qa.CRM.Pages.LoginPage.VerifyLogin(LoginPage.java:35)
+<br/>at com.qa.CRMPageTest.ContactPageTest.setup(ContactPageTest.java:29)
+<br/>28 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m2"></a><h2>com.qa.CRMPageTest.ContactPageTest:teardown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m3"></a><h2>com.qa.CRMPageTest.ContactPageTest:CreateNewContactDataProvider</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th><th style="padding-left:1em;padding-right:1em">Parameter #3</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">mohamed</td>
+<td style="padding-left:.5em;padding-right:2em">ahmed</td>
+<td style="padding-left:.5em;padding-right:2em">Dr.</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m4"></a><h2>com.qa.CRMPageTest.ContactPageTest:CreateNewContactDataProvider</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th><th style="padding-left:1em;padding-right:1em">Parameter #3</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">ahmed</td>
+<td style="padding-left:.5em;padding-right:2em">mohamed</td>
+<td style="padding-left:.5em;padding-right:2em">Mr.</td>
+</tr>
+</table>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

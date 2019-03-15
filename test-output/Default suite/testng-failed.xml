@@ -6,7 +6,8 @@
       <class name="com.qa.CRMPageTest.ContactPageTest">
         <methods>
           <include name="setup"/>
-          <include name="CreateNewContatTest"/>
+          <include name="teardown"/>
+          <include name="CreateNewContactDataProvider"/>
         </methods>
       </class>
     </classes>
