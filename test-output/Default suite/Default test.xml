@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite hostname="ghadeer" name="com.qa.CRMPageTest.ContactPageTest" tests="2" failures="0" timestamp="15 Mar 2019 16:09:50 GMT" time="80.372" errors="0">
+<testsuite hostname="ghadeer" name="com.qa.CRMPageTest.ContactPageTest" tests="5" failures="0" timestamp="3 Apr 2019 18:34:01 GMT" time="65.001" errors="0">
   <testcase name="@BeforeMethod setup" time="0.0" classname="com.qa.CRMPageTest.ContactPageTest">
-    <failure type="org.openqa.selenium.WebDriverException" message="unknown error: Element &amp;lt;input type=&amp;quot;submit&amp;quot; value=&amp;quot;Login&amp;quot; class=&amp;quot;btn btn-small&amp;quot;&amp;gt; is not clickable at point (1182, 117). Other element would receive the click: &amp;lt;div id=&amp;quot;preloader&amp;quot; style=&amp;quot;opacity: 0.046225;&amp;quot;&amp;gt;...&amp;lt;/div&amp;gt;
-  (Session info: chrome=72.0.3626.121)
+    <failure type="org.openqa.selenium.WebDriverException" message="unknown error: Element &amp;lt;input type=&amp;quot;submit&amp;quot; value=&amp;quot;Login&amp;quot; class=&amp;quot;btn btn-small&amp;quot;&amp;gt; is not clickable at point (1182, 117). Other element would receive the click: &amp;lt;div id=&amp;quot;preloader&amp;quot; style=&amp;quot;opacity: 0.1225;&amp;quot;&amp;gt;...&amp;lt;/div&amp;gt;
+  (Session info: chrome=73.0.3683.86)
   (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:17:03&amp;apos;
 System info: host: &amp;apos;GHADEER&amp;apos;, ip: &amp;apos;192.168.1.3&amp;apos;, os.name: &amp;apos;Windows 8.1&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.3&amp;apos;, java.version: &amp;apos;1.8.0_191&amp;apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\GHADEE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61916}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
-Session ID: de23241eec5badd2166b73abb130f56b">
-      <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <input type="submit" value="Login" class="btn btn-small"> is not clickable at point (1182, 117). Other element would receive the click: <div id="preloader" style="opacity: 0.046225;">...</div>
-  (Session info: chrome=72.0.3626.121)
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\GHADEE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59961}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: e25a20e0ab00df73eb417536645d2d42">
+      <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <input type="submit" value="Login" class="btn btn-small"> is not clickable at point (1182, 117). Other element would receive the click: <div id="preloader" style="opacity: 0.1225;">...</div>
+  (Session info: chrome=73.0.3683.86)
   (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'GHADEER', ip: '192.168.1.3', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_191'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\GHADEE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61916}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
-Session ID: de23241eec5badd2166b73abb130f56b
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\GHADEE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59961}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: e25a20e0ab00df73eb417536645d2d42
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -74,8 +74,35 @@ Session ID: de23241eec5badd2166b73abb130f56b
   <testcase name="@AfterMethod teardown" time="0.0" classname="com.qa.CRMPageTest.ContactPageTest">
     <skipped/>
   </testcase>
-  <testcase name="CreateNewContactDataProvider" time="20.427" classname="com.qa.CRMPageTest.ContactPageTest"/>
-  <testcase name="CreateNewContactDataProvider" time="0.012" classname="com.qa.CRMPageTest.ContactPageTest">
+  <testcase name="@BeforeMethod setup" time="0.0" classname="com.qa.CRMPageTest.ContactPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod teardown" time="0.0" classname="com.qa.CRMPageTest.ContactPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod setup" time="0.0" classname="com.qa.CRMPageTest.ContactPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod teardown" time="0.0" classname="com.qa.CRMPageTest.ContactPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod setup" time="0.0" classname="com.qa.CRMPageTest.ContactPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod teardown" time="0.0" classname="com.qa.CRMPageTest.ContactPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CreateNewContactDataProvider" time="14.277" classname="com.qa.CRMPageTest.ContactPageTest"/>
+  <testcase name="CreateNewContactDataProvider" time="0.016" classname="com.qa.CRMPageTest.ContactPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="ContactPageTitleTest" time="0.008" classname="com.qa.CRMPageTest.ContactPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckBoxTest" time="0.013" classname="com.qa.CRMPageTest.ContactPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CreateNewContatTest" time="0.013" classname="com.qa.CRMPageTest.ContactPageTest">
     <skipped/>
   </testcase>
 </testsuite>

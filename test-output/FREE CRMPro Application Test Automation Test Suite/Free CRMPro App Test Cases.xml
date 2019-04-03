@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="ghadeer" name="com.qa.CRMPageTest.ContactPageTest" tests="12" failures="1" timestamp="3 Apr 2019 18:56:40 GMT" time="106.175" errors="0">
+  <testcase name="@BeforeMethod setup" time="0.0" classname="com.qa.CRMPageTest.ContactPageTest">
+    <failure type="org.openqa.selenium.WebDriverException" message="unknown error: Element &amp;lt;input type=&amp;quot;submit&amp;quot; value=&amp;quot;Login&amp;quot; class=&amp;quot;btn btn-small&amp;quot;&amp;gt; is not clickable at point (1182, 117). Other element would receive the click: &amp;lt;div id=&amp;quot;preloader&amp;quot; style=&amp;quot;opacity: 0.0106778;&amp;quot;&amp;gt;...&amp;lt;/div&amp;gt;
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:17:03&amp;apos;
+System info: host: &amp;apos;GHADEER&amp;apos;, ip: &amp;apos;192.168.1.3&amp;apos;, os.name: &amp;apos;Windows 8.1&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.3&amp;apos;, java.version: &amp;apos;1.8.0_191&amp;apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\GHADEE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60313}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: f46c921e782894e9e9cd13a110108315">
+      <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <input type="submit" value="Login" class="btn btn-small"> is not clickable at point (1182, 117). Other element would receive the click: <div id="preloader" style="opacity: 0.0106778;">...</div>
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GHADEER', ip: '192.168.1.3', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\GHADEE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60313}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: f46c921e782894e9e9cd13a110108315
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.qa.CRM.Pages.LoginPage.VerifyLogin(LoginPage.java:35)
+	at com.qa.CRMPageTest.ContactPageTest.setup(ContactPageTest.java:29)
+... Removed 35 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="@AfterMethod teardown" time="0.0" classname="com.qa.CRMPageTest.ContactPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod setup" time="0.0" classname="com.qa.CRMPageTest.ContactPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod teardown" time="0.0" classname="com.qa.CRMPageTest.ContactPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod setup" time="0.0" classname="com.qa.CRMPageTest.ContactPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod teardown" time="0.0" classname="com.qa.CRMPageTest.ContactPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod setup" time="0.0" classname="com.qa.CRMPageTest.ContactPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod teardown" time="0.0" classname="com.qa.CRMPageTest.ContactPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod setup" time="0.0" classname="com.qa.CRMPageTest.HomePageTest">
+    <failure type="org.openqa.selenium.WebDriverException" message="unknown error: Element &amp;lt;input type=&amp;quot;submit&amp;quot; value=&amp;quot;Login&amp;quot; class=&amp;quot;btn btn-small&amp;quot;&amp;gt; is not clickable at point (1182, 117). Other element would receive the click: &amp;lt;div id=&amp;quot;preloader&amp;quot; style=&amp;quot;opacity: 0.0544444;&amp;quot;&amp;gt;...&amp;lt;/div&amp;gt;
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:17:03&amp;apos;
+System info: host: &amp;apos;GHADEER&amp;apos;, ip: &amp;apos;192.168.1.3&amp;apos;, os.name: &amp;apos;Windows 8.1&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.3&amp;apos;, java.version: &amp;apos;1.8.0_191&amp;apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\GHADEE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60427}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: 2f440971a18468cfa6be79d3d2f471f0">
+      <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <input type="submit" value="Login" class="btn btn-small"> is not clickable at point (1182, 117). Other element would receive the click: <div id="preloader" style="opacity: 0.0544444;">...</div>
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GHADEER', ip: '192.168.1.3', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\GHADEE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60427}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: 2f440971a18468cfa6be79d3d2f471f0
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.qa.CRM.Pages.LoginPage.VerifyLogin(LoginPage.java:35)
+	at com.qa.CRMPageTest.HomePageTest.setup(HomePageTest.java:29)
+... Removed 35 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="@AfterMethod teardown" time="0.0" classname="com.qa.CRMPageTest.HomePageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod setup" time="0.0" classname="com.qa.CRMPageTest.ContactPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod teardown" time="0.0" classname="com.qa.CRMPageTest.ContactPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod setup" time="0.0" classname="com.qa.CRMPageTest.HomePageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod teardown" time="0.0" classname="com.qa.CRMPageTest.HomePageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod setup" time="0.0" classname="com.qa.CRMPageTest.HomePageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod teardown" time="0.0" classname="com.qa.CRMPageTest.HomePageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CreateNewContactDataProvider" time="0.007" classname="com.qa.CRMPageTest.ContactPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CreateNewContactDataProvider" time="0.008" classname="com.qa.CRMPageTest.ContactPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="ContactPageTitleTest" time="0.002" classname="com.qa.CRMPageTest.ContactPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CalendarlinkTest" time="1.565" classname="com.qa.CRMPageTest.HomePageTest"/>
+  <testcase name="LoginPageTitleTest" time="0.036" classname="com.qa.CRMPageTest.LoginPageTest"/>
+  <testcase name="CheckBoxTest" time="0.006" classname="com.qa.CRMPageTest.ContactPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="HomePageTitleTest" time="0.003" classname="com.qa.CRMPageTest.HomePageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="LoginPageLogoTest" time="0.116" classname="com.qa.CRMPageTest.LoginPageTest"/>
+  <testcase name="CreateNewContatTest" time="0.003" classname="com.qa.CRMPageTest.ContactPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="UserNameDisplayedTest" time="0.002" classname="com.qa.CRMPageTest.HomePageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="LoginTest" time="0.836" classname="com.qa.CRMPageTest.LoginPageTest">
+    <failure type="org.openqa.selenium.WebDriverException" message="unknown error: Element &amp;lt;input type=&amp;quot;submit&amp;quot; value=&amp;quot;Login&amp;quot; class=&amp;quot;btn btn-small&amp;quot;&amp;gt; is not clickable at point (1182, 117). Other element would receive the click: &amp;lt;div id=&amp;quot;preloader&amp;quot; style=&amp;quot;opacity: 0.00513611;&amp;quot;&amp;gt;...&amp;lt;/div&amp;gt;
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:17:03&amp;apos;
+System info: host: &amp;apos;GHADEER&amp;apos;, ip: &amp;apos;192.168.1.3&amp;apos;, os.name: &amp;apos;Windows 8.1&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.3&amp;apos;, java.version: &amp;apos;1.8.0_191&amp;apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\GHADEE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60497}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: 410449ebdf79b3065ee9edac612a4d38">
+      <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <input type="submit" value="Login" class="btn btn-small"> is not clickable at point (1182, 117). Other element would receive the click: <div id="preloader" style="opacity: 0.00513611;">...</div>
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GHADEER', ip: '192.168.1.3', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\GHADEE~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60497}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: 410449ebdf79b3065ee9edac612a4d38
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.qa.CRM.Pages.LoginPage.VerifyLogin(LoginPage.java:35)
+	at com.qa.CRMPageTest.LoginPageTest.LoginTest(LoginPageTest.java:44)
+... Removed 33 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="ContactsLinkTest" time="0.015" classname="com.qa.CRMPageTest.HomePageTest">
+    <skipped/>
+  </testcase>
+</testsuite>

@@ -6,8 +6,11 @@
       <class name="com.qa.CRMPageTest.ContactPageTest">
         <methods>
           <include name="setup"/>
+          <include name="CheckBoxTest"/>
           <include name="teardown"/>
+          <include name="ContactPageTitleTest"/>
           <include name="CreateNewContactDataProvider"/>
+          <include name="CreateNewContatTest"/>
         </methods>
       </class>
     </classes>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FREE CRMPro Application Test Automation Test Suite">
+
+<listeners>
+		<listener class-name="ExtentReportListener.ExtentReport" />
+	        </listeners>
+
+	<test name="Free CRMPro App Test Cases">
+		<classes>
+			<class name="com.qa.CRMPageTest.LoginPageTest"></class>
+			<class name="com.qa.CRMPageTest.HomePageTest"></class>
+			<class name="com.qa.CRMPageTest.ContactPageTest"></class>
+
+		</classes>
+	</test>
+</suite>
