@@ -3,14 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)" preserve-order="false">
     <classes>
-      <class name="com.qa.CRMPageTest.ContactPageTest">
+      <class name="com.qa.CRMPageTest.CalendarPageTest">
         <methods>
+          <include name="Teardown"/>
+          <include name="CalendarTest"/>
           <include name="setup"/>
-          <include name="CheckBoxTest"/>
-          <include name="teardown"/>
-          <include name="ContactPageTitleTest"/>
-          <include name="CreateNewContactDataProvider"/>
-          <include name="CreateNewContatTest"/>
         </methods>
       </class>
     </classes>

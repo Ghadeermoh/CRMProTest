@@ -1,34 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [FREE CRMPro Application Test Automation Test Suite]">
-  <listeners>
-    <listener class-name="ExtentReportListener.ExtentReport"/>
-  </listeners>
-  <test name="Free CRMPro App Test Cases(failed)" preserve-order="false">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)" preserve-order="false">
     <classes>
-      <class name="com.qa.CRMPageTest.LoginPageTest">
+      <class name="com.qa.CRMPageTest.CalendarPageTest">
         <methods>
-          <include name="LoginTest"/>
-          <include name="teardown"/>
+          <include name="Teardown"/>
+          <include name="CalendarTest"/>
           <include name="setup"/>
-        </methods>
-      </class>
-      <class name="com.qa.CRMPageTest.HomePageTest">
-        <methods>
-          <include name="UserNameDisplayedTest"/>
-          <include name="HomePageTitleTest"/>
-          <include name="setup"/>
-          <include name="ContactsLinkTest"/>
-          <include name="teardown"/>
-        </methods>
-      </class>
-      <class name="com.qa.CRMPageTest.ContactPageTest">
-        <methods>
-          <include name="setup"/>
-          <include name="CheckBoxTest"/>
-          <include name="ContactPageTitleTest"/>
-          <include name="CreateNewContactDataProvider"/>
-          <include name="CreateNewContatTest"/>
         </methods>
       </class>
     </classes>
